@@ -1,0 +1,22 @@
+footer{
+    color: #CCCCCC;
+    padding-top : 20px;
+    border-top : 2px solid black;
+    margin-top : 10px;
+
+    text-align : center;
+}
+
+.foot_icon{
+    height : 32px;
+}
+
+#link_icons li{
+    display: inline;
+    margin-right : 15px;
+    height : 32px;
+}
+
+#ref_links{
+    text-align : right;
+}
