@@ -9,6 +9,8 @@
     <!-- Local CSS -->
     <link rel="stylesheet" type="text/css" href="./css/common.css">
     <link rel="stylesheet" type="text/css" href="./css/header.css">
+    <link rel="stylesheet" type="text/css" href="./css/nav.css">
+    <link rel="stylesheet" type="text/css" href="./css/section.css">
     <link rel="stylesheet" type="text/css" href="./css/footer.css">
 
     <!-- Web Font -->
@@ -18,21 +20,41 @@
 <body>
     <header>
         <div id="small_letter">Cutlets's Blog<hr></div>
+        <div id="small_description">이것저것 구겨넣기...</div>
     </header>
+
     <nav>
-        인덱스
-        <ul id="nav_menu">
-            <li id="all_article">
-                전체 글
-            </li>
-            <li id="notice">
-                공지사항
-            </li>
-        </ul>
+        <div id="allArticle">
+            <div id="hideCat">
+                카테고리 감추기
+            </div>
+            <div id="showCat">
+                카테고리 보이기
+            </div>
+            
+            <ul id="nav_menu">
+                <li id="notice">
+                    공지사항
+                </li>
+                <li id="nav01">
+                    Nav01
+                </li>
+                <li id="nav02">
+                    Nav02
+                </li>
+                <li id="nav03">
+                    Nav03
+                </li>
+            </ul>
+        </div>
     </nav>
+
     <section>
-        Section
+        <hr>
+        내용이 들어갈 자리
+        <hr>
     </section>
+
     <footer>
         <div id="ref_links">
             <ul id="link_icons">
@@ -46,7 +68,7 @@
         </div>
 
         <div id="info">
-            [ Github Cutlets's Blog ] &nbsp;&nbsp;&nbsp;&nbsp; ⓒChiHyeon Lee. 2020
+            [ Github Cutlets's Blog ] &nbsp;&nbsp;&nbsp;&nbsp; ⓒChiHyeon Lee. 2020~
         </div>
     <!--
         <div id="foot_notice">
@@ -54,4 +76,7 @@
         </div>
     -->
     </footer>
+
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/uscript.js"></script>
 </body>

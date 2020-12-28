@@ -1,0 +1,24 @@
+nav {
+    margin : 0px 5px 0px 5px;
+}
+
+#showCat {
+    width : fit-content;
+    display : block;
+    cursor : pointer;
+}
+
+#hideCat {
+    width : fit-content;
+    display : none;
+    cursor : pointer;
+}
+
+#nav_menu {
+    display : none;
+}
+
+#nav_menu li{
+    display: inline;
+    margin-right : 15px;
+}
